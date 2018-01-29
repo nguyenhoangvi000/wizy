@@ -5,9 +5,10 @@
 @import '../../common/styles/_helper.scss';
 footer {
   right: 0;
-  bottom: 0;
   left: 0;
-  z-index: 99;
+  bottom: 0;
+  padding: em(20) em(10);
+  position: relative;
   background-color: $color__primary__text;
   border-top: em(1) solid $color__white;
   p {

@@ -1,0 +1,29 @@
+@import '../../common/styles/_variables.scss';
+@import '../../common/styles/_function.scss';
+@import '../../common/styles/_variables.scss';
+@import '../../common/styles/_colors.scss';
+@import '../../common/styles/_helper.scss';
+.contact-container {
+  .description-contact {
+    margin-bottom: em(50);
+  }
+  .btn-contact {
+    display: flex;
+    border-radius: 0;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: em(40);
+    padding: em(10) em(35);
+    background-color: #114BE9 !important;
+  }
+  .input-contact {
+    line-height: 2;
+  }
+  .btn-skype {
+    display: flex;
+    padding-left: em(0);
+    margin-bottom: em(100);
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
