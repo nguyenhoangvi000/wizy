@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Arial-BoldMT';
+  src: url('./assets/fonts/Arial-BoldMT.ttf')format('opentype');
+}
+@font-face {
+  font-family: 'Arial-MT';
+  src: url('./assets/fonts/Arial-MT.ttf')format('opentype');
+}
+
+@font-face {
+  font-family: 'Arial-ItalicMT';
+  src: url('./assets/fonts/Arial-ItalicMT.ttf')format('opentype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  .container-fluid {
+    padding-left: em(0);
+  }
+}
+
+h1, h2, h3, h4, h5 , h6{
+  font-family: Arial-BoldMT !important;
+}
+
+p, th, td {
+  font-family: Arial-MT !important;
+}

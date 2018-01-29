@@ -1,0 +1,133 @@
+@import '../../common/styles/_variables.scss';
+@import '../../common/styles/_function.scss';
+@import '../../common/styles/_variables.scss';
+@import '../../common/styles/_colors.scss';
+@import '../../common/styles/_helper.scss';
+.container-home-page {
+  .slogan-wizy {
+    font-size: em(33);
+    line-height: em(30);
+    margin: em(40) em(0) em(10) em(0);
+    color: $color__primary__text;
+  }
+  .description {
+    font-size: em(20);
+    line-height: em(30);
+    color: rgba($color: $color__primary__text, $alpha: 0.6);
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  .v-align-image {
+    display: flex;
+    align-items: center;
+  }
+  .project-title {
+    font-size: em(18);
+    color: $color__primary__text;
+  }
+  .project-description {
+    font-size: em(16);
+    color: rgba($color: $color__primary__text, $alpha: 0.6);
+  }
+  .card-services {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: em(30) em(10) em(10) em(20);
+    height: em(350);
+    max-height: em(350);
+    .card-title {
+      color: $color__white;
+      font-size: $font-size-large;
+      min-height: em(60);
+    }
+    .card-content {
+      bottom: em(80);
+      color: $color__white;
+      font-size: $font-size-large;
+    }
+    .card-icon {
+      position: absolute;
+      bottom: em(10);
+    }
+  }
+  .card-services-first {
+    background-color: $color__card__first;
+  }
+  .card-services-second {
+    background-color: $color__card__second;
+  }
+  .card-services-third {
+    background-color: $color__card__third;
+  }
+  .card-services-fourth {
+    background-color: $color__card__fourth;
+  }
+  .quote-container {
+    .quote {
+      position: relative;
+      .background-quote {
+        width: 100%;
+        min-height: em(500);
+        position: relative;
+        margin: em(60) em(0) em(0) em(0);
+      }
+      .quote-content {
+        top: em(30);
+        left: 0;
+        right: 0;
+        min-height: em(500);
+        position: absolute;
+        .quote-title {
+          position: relative;
+          letter-spacing: em(1.6);
+          top: em(150);
+          color: $color__white;
+        }
+        .quote-content-details {
+          top: em(180);
+          position: relative;
+          line-height: em(30);
+          color: $color__white;
+        }
+        .quote-author {
+          position: relative;
+          top: em(200);
+          color: $color__white;
+        }
+        .quote-company {
+          position: relative;
+          top: em(220);
+          color: $color__white;
+        }
+      }
+    }
+  }
+  .contact-content {
+    width: 100%;
+    min-height: em(500);
+    background-color: $color__primary__text;
+    .contact-title {
+      margin-top: em(124);
+      letter-spacing: em(1.6);
+      color: $color__white;
+    }
+    .contact-description {
+      margin-top: em(40);
+      line-height: em(30);
+      color: $color__white;
+    }
+    .btn-talk {
+      margin-top: em(30);
+      font-size: em(36);
+      border-bottom: em(1) solid $color__white;
+      color: $color__white;
+      width: em(150);
+      text-decoration: none;
+      span {
+        margin-left: em(15);
+      }
+    }
+  }
+}

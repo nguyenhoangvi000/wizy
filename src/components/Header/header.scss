@@ -1,0 +1,14 @@
+@import '../../common/styles/_variables.scss';
+@import '../../common/styles/_function.scss';
+@import '../../common/styles/_fonts.scss';
+@import '../../common/styles/_colors.scss';
+@import '../../common/styles/_helper.scss';
+.header-container {
+  .nav-item {
+    margin: em(0) em(10);
+    .nav-link {
+      text-transform: uppercase;
+      font-size: $font-size-medium;
+    }
+  }
+}
