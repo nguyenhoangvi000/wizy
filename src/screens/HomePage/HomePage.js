@@ -20,7 +20,7 @@ export default class HomePage extends Component {
       <div className="container-home-page">
         <div className="container">
           <div className="row">
-            <div className="col-md-11 offset-md-1">
+            <div className="col-md-11 mx-auto">
               <h1 className="slogan-wizy text-center">Wizy helps develop digital business more efficiently, powered by Vietnamese digital top talents.</h1>
               <p className="description text-center">We focus on Web Development, App Development and UI Design with highly proficient.</p>
             </div>
@@ -31,7 +31,7 @@ export default class HomePage extends Component {
               <h6 className="slogan-wizy text-center">OUR PROJECT</h6>
               <p className="description text-center">We focus on quality from early stages of the project life cycle. We deliver "Zero-Defect" products that sparkle with quality.</p>
             </div>
-            <div className="col-md-5 offset-md-1">
+            <div className="col-md-5 mx-auto">
               <img className="img-responsive" src={TVH} alt="" />
               <h6 className="project-title text-left">Travel Hub</h6>
               <p className="project-description text-left">Mobile App Development, UI Design, Wizy Innovation</p>
@@ -49,7 +49,7 @@ export default class HomePage extends Component {
             <div className="col-md-12">
               <h6 className="slogan-wizy text-center">OUR SERVICES</h6>
             </div>
-            <div className="col-md-10 offset-md-1">
+            <div className="col-md-10 mx-auto">
               <p className="description text-center">You're seeking human. You want to have professional and skillful talents/staff for projects but don't want to waste too much time, money to conduct process of recruitment, training, termination. Let Wizy support and corporate with you.</p>
             </div>
             <div className="col-md-3 col-sm-12">
@@ -104,7 +104,7 @@ export default class HomePage extends Component {
               <img className="background-quote" src={backgroundQuote} alt="" />
               <div className="quote-content">
                 <h6 className="quote-title text-center">OUR CUSTOMER SATISFIED WITH OUR WORK</h6>
-                <div className="col-md-6 offset-md-3">
+                <div className="col-md-6 mx-auto">
                   <div className="quote-content-details">
                     <p className="primary-italic-font text-center">Thank you for creating a cake which perfectly complimented our scheme… It made our day extra special and everyone commented on the great flavour and texture of all the cakes</p>
                   </div>
