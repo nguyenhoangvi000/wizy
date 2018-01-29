@@ -120,7 +120,7 @@ export default class HomePage extends Component {
           </div>
         </div>
         <div className="row">
-          <div className="contact-content">
+          <div className="contact-content text-center">
             <h6 className="contact-title text-center">WE HOPE YOU ARE THE NEXT</h6>
             <h6 className="contact-description primary-light-font text-center">If you have any idea which want to discuss. Please feel free to contact us.</h6>
             <button type="button" className="btn btn-link btn-talk">Let's Talk<span><img src={arrowTalk} alt="" /></span></button>
