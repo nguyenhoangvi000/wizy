@@ -14,7 +14,7 @@ export default class Contact extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h1>Let's talk</h1>
+              <h1 className="contact-title">Let's talk</h1>
               <p className="description-contact">We are very excited if we have an opportunity to colaborate with you. Please fill out the form to let us knowing your needs. </p>
               <InputGroup>
                 <Input className="input-contact" placeholder="Your Full Name" />

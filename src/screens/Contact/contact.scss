@@ -3,8 +3,10 @@
 @import '../../common/styles/_variables.scss';
 @import '../../common/styles/_colors.scss';
 @import '../../common/styles/_helper.scss';
-
 .contact-container {
+  .contact-title {
+    margin-top: em(20);
+  }
   .description-contact {
     margin-bottom: em(50);
   }
@@ -16,6 +18,9 @@
     margin-bottom: em(40);
     padding: em(10) em(35);
     background-color: #114BE9 !important;
+    img {
+      margin-left: em(10);
+    }
   }
   .input-contact {
     line-height: 2;
@@ -24,7 +29,12 @@
     display: flex;
     padding-left: em(0);
     margin-bottom: em(100);
+    border-bottom: em(2) solid #114BE9;
     align-items: baseline;
+    text-decoration: none;
     justify-content: space-between;
+    img {
+      margin-left: em(10);
+    }
   }
 }
