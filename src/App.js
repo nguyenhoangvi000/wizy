@@ -6,9 +6,9 @@ import createHistory from 'history/createBrowserHistory';
 import { Header } from './components/Header/index';
 import { Footer } from './components/Footer/index';
 import { HomePage } from './screens/HomePage/index';
-// import { Contact } from './screens/Contact/index';
-// import { Career } from './screens/Career/index';
-// import { JobDetails } from './screens/JobDetails/index';
+import { Contact } from './screens/Contact/index';
+import { Career } from './screens/Career/index';
+import { JobDetails } from './screens/JobDetails/index';
 
 import './App.scss';
 
@@ -21,8 +21,10 @@ class App extends Component {
       <Router history={history} key={0}>
         <div>
           <Switch>
-            <Route path="/" component={HomePage}></Route>
-            {/* <Route path="/contact" component={Contact}></Route> */}
+            {/* <Route path="/" component={HomePage}></Route> */}
+            {/* <Route path="/" component={Contact}></Route> */}
+            {/* <Route path="/" component={Career}></Route> */}
+            <Route path="/" component={JobDetails}></Route>
           </Switch>
         </div>
       </Router>,
